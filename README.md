@@ -1,5 +1,5 @@
 # pipeline_study
-to show result of online study.
+to show the result of my study.
 
 ------------------
 
