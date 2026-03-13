@@ -1,0 +1,20 @@
+* nginx, apache, react, spring-boot, postgres
+
+/opt/myapp/
+  ├── docker-compose.yml
+  ├── jenkins/
+  │   	└── Dockerfile
+  ├── nginx/
+  │   	└── nginx.conf
+  ├── apache/
+  │   	├── Dockerfile
+  │   	└── httpd.conf
+  ├── frontend/              	← React build output (built by Jenkins)
+         	├── Jenkinsfile	    in frontend github package
+  │   	  └── build/
+  ├── boot-react/             ← spring-boot build output (built by Jenkins)
+         	├── Jenkinsfile	    in boot-react github package
+         	└── Dockerfile
+  │   	  └── app.jar
+  └── postgres/
+      	└── init.sql
